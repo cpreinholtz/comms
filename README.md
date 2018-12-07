@@ -1,4 +1,4 @@
-# comms
+# Comms
 Used to interact with various pieces of my embedded armada.
 
 
