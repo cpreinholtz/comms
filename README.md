@@ -1,6 +1,10 @@
 # Comms
 Used to interact with various pieces of my embedded armada.
 
+# Cheatsheets
+
+Vim:
+https://www.maketecheasier.com/vim-keyboard-shortcuts-cheatsheet/
 
 # TODO
 
