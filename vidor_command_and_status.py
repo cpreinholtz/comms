@@ -1,5 +1,6 @@
 import socket
 import sys
+import keyboard
 from thread import *
 
 HOST = ''   
@@ -25,12 +26,17 @@ def clientthread(conn):
     f=open('out.txt','w')
     #infinite loop so that function do not terminate and thread do not end.
     while True:
-	
-        #Receiving from client
-        data = conn.recv(1024)
-        if not data:
-            break
-	f.write(data)
+	    if keyboard.is_pressed('0'):
+        conn.send('0')
+        print "sending 0"
+      elif 
+        
+      
+      #Receiving from client
+      data = conn.recv(1024)
+      if not data:
+        break
+	    f.write(data)
     conn.close()
 
 #now keep talking with the client
